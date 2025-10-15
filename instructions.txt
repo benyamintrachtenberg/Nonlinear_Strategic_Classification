@@ -1,6 +1,6 @@
 There are two experiments:
     1. Polynomial effective class expressivity (expressivity_experiment.py)
-    2. Maximum accuracy in the strategic setting (accuracy_experiment.py)
+    2. Maximum accuracy in the strategic setting (approximation_experiment.py)
 
 Note that both experiments are designed to run over multiple CPUs to parallelize
 calculation, though should work (albeit slowly) for a single CPU.
@@ -19,5 +19,5 @@ The multinomial_overfit class in expressivity_experiment.py also includes a
 method called "one_instance" which can be used to get the regular and strategic 
 labels of a set of instances.
 
-Becaus the second experiment requires fewer parameters, it can be directly run 
+Because the second experiment requires fewer parameters, it can be directly run 
 using the main function in accuracy_experiment.py. 
